@@ -19,8 +19,6 @@ class BMICalculatorTest extends  PHPUnit\Framework\TestCase {
     /**
      * @covers BMICalculator::testShowsNormalWhenBmiBetween1825
      */    
-
-
     public function testShowsNormalWhenBmiBetween1825()
     {
         $expected = 'Normal';
