@@ -4,9 +4,9 @@ use PHPUnit\Framework\TestCase;
 class BMICalculatorTest extends  PHPUnit\Framework\TestCase {
 
     /**
-     * @covers BMICalculator::getTextResultFromBMI
+     * @covers BMICalculator::testShowsUnderweightWhenBmiLessThan18
      */
-    public function testUnderweightBMITextResult()
+    public function testShowsUnderweightWhenBmiLessThan18()
     {
         $expected = 'Underweight';
         $BMICalculator = new BMICalculator;
@@ -17,11 +17,11 @@ class BMICalculatorTest extends  PHPUnit\Framework\TestCase {
     }
 
     /**
-     * @covers BMICalculator::testNormalBMITextResult
+     * @covers BMICalculator::testShowsNormalWhenBmiBetween1825
      */    
 
 
-    public function testNormalBMITextResult()
+    public function testShowsNormalWhenBmiBetween1825()
     {
         $expected = 'Normal';
         $BMICalculator = new BMICalculator;
@@ -32,10 +32,10 @@ class BMICalculatorTest extends  PHPUnit\Framework\TestCase {
     }
 
     /**
-     * @covers BMICalculator::testOverweightBMITextResult
+     * @covers BMICalculator::testShowsOverweightWhenBmiGreaterThan25
      */    
 
-    public function testOverweightBMITextResult()
+    public function testShowsOverweightWhenBmiGreaterThan25()
     {
         $expected = 'Overweight';
         $BMICalculator = new BMICalculator;
@@ -46,9 +46,9 @@ class BMICalculatorTest extends  PHPUnit\Framework\TestCase {
     }
 
     /**
-     * @covers BMICalculator::testCorrectBMIValue
+     * @covers BMICalculator::testCanCalculateCorrectBmi
      */        
-    public function testCorrectBMIValue()
+    public function testCanCalculateCorrectBmi()
     {
         $expected = 39.1;
         $BMICalculator = new BMICalculator;
@@ -57,4 +57,7 @@ class BMICalculatorTest extends  PHPUnit\Framework\TestCase {
         $result = $BMICalculator->calculate();
         $this->assertEquals($expected, $result);
     }
+
+
+    
 }

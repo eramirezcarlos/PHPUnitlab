@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/var/www/html/phpunit-wrong/tests" tests="6" assertions="6" errors="0" failures="0" skipped="0" time="0.008990">
+    <testsuite name="UsefulAssertionsTest" file="/var/www/html/phpunit-wrong/tests/UsefulAssertionsTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.007027">
+      <testcase name="testAssertSame" file="/var/www/html/phpunit-wrong/tests/UsefulAssertionsTest.php" line="6" class="UsefulAssertionsTest" classname="UsefulAssertionsTest" assertions="1" time="0.006405"/>
+      <testcase name="testAssertEquals" file="/var/www/html/phpunit-wrong/tests/UsefulAssertionsTest.php" line="14" class="UsefulAssertionsTest" classname="UsefulAssertionsTest" assertions="1" time="0.000622"/>
+    </testsuite>
+    <testsuite name="BMICalculatorTest" file="/var/www/html/phpunit-wrong/tests/BMICalculatorTest.php" tests="4" assertions="4" errors="0" failures="0" skipped="0" time="0.001963">
+      <testcase name="testShowsUnderweightWhenBmiLessThan18" file="/var/www/html/phpunit-wrong/tests/BMICalculatorTest.php" line="9" class="BMICalculatorTest" classname="BMICalculatorTest" assertions="1" time="0.000657"/>
+      <testcase name="testShowsNormalWhenBmiBetween1825" file="/var/www/html/phpunit-wrong/tests/BMICalculatorTest.php" line="24" class="BMICalculatorTest" classname="BMICalculatorTest" assertions="1" time="0.000791"/>
+      <testcase name="testShowsOverweightWhenBmiGreaterThan25" file="/var/www/html/phpunit-wrong/tests/BMICalculatorTest.php" line="38" class="BMICalculatorTest" classname="BMICalculatorTest" assertions="1" time="0.000248"/>
+      <testcase name="testCanCalculateCorrectBmi" file="/var/www/html/phpunit-wrong/tests/BMICalculatorTest.php" line="51" class="BMICalculatorTest" classname="BMICalculatorTest" assertions="1" time="0.000267"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
