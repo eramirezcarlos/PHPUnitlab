@@ -17,7 +17,7 @@ $ vendor/bin/phpunit --migrate-configuration
 >Utilizing command line for running the tests
 
 ```sh
-$ vendor/bin/phpunit tests --color --log-junit test_result.xml --testdox
+$reset && vendor/bin/phpunit tests --color --log-junit test_result.xml --testdox
 ```
 
 

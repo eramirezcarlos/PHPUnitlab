@@ -1,6 +1,7 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
+
 class BMICalculatorTest extends  PHPUnit\Framework\TestCase {
 
     /**
@@ -54,6 +55,9 @@ class BMICalculatorTest extends  PHPUnit\Framework\TestCase {
         $BMICalculator->height = 1.6; // m
         $result = $BMICalculator->calculate();
         $this->assertEquals($expected, $result);
+        //assertion using a php constant set on phpunit.xlm
+        $this->assertEquals( BASEURL, 'http://phpunit-wrong');
+        
     }
 
 
