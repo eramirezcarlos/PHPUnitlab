@@ -1,4 +1,4 @@
-# PHPUnitlab - Excercise to upgrade PHP Unit testing to PHP 8.1 and PHPUnit 10
+# PHPUnitlab - Upgrade PHPUnit testing to PHP 8.1 and PHPUnit 10
 
 >Updating to new versions
 
